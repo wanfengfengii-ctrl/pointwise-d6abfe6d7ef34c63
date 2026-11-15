@@ -15,3 +15,6 @@ credentials.json
 *token*.json
 *.pem
 *.key
+
+# Generated dataset (cli.py prepare)
+artifacts/

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "prepare": [
+    ["python3", "-I", "cli.py", "prepare", "--dir", "artifacts"],
+    ["python3", "-I", "cli.py", "prepare-expected", "--dir", "artifacts"]
+  ],
+  "verify": ["python3", "-I", "cli.py", "verify", "--dir", "artifacts"],
+  "demo": ["python3", "-I", "cli.py", "demo"]
+}
